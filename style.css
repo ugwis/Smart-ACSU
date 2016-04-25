@@ -1,0 +1,176 @@
+
+@media screen and (min-width:600px) {
+	#menu {
+		width: 270px!important;
+		float: left;
+	}
+	#news {
+		float: right!important;
+	}
+	#news > * {
+		margin-left: 290px!important;
+	}
+	#menu {
+		margin-right: -270px;
+	}
+	#menu h2 {
+		text-align: center;
+	}
+	h3, h2, h1 {
+		line-height:2.5em!important;
+	}
+	footer {
+		clear: both;
+	}
+}
+
+body {
+    -webkit-text-size-adjust : 100% ;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    width: 100%;
+    display:block;
+	border-top: 8px solid #080;
+	border-bottom: 1px solid #888;
+}
+
+header h1 {
+	font-weight: 500;
+    margin: 10px 20px;
+}
+
+main {
+    margin:auto 0px;
+}
+
+#login {
+	width:250px;
+	background:#0B0;
+	margin:30px auto;
+	padding:20px;
+	border-radius:10px;
+}
+
+#login form {
+	display:block;
+	width:100%;
+}
+
+#login form div {
+	margin-bottom: 25px;
+}
+
+#login form div input {
+	display:block;
+	width:100%;
+	margin:10px auto;
+	font-size:x-large;
+}
+
+#login form div label {
+	font-weight: bold;
+	font-size:large;
+}
+
+#login form button {
+	width:50%;
+	display:block;
+	margin: 10px auto;
+	font-weight: bold;
+	border:1px solid #55F;
+	background:#FFF;
+	font-size:large;
+}
+
+#news {
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#news h1 {
+	padding-left:10px;
+	background: #F9F9F9;
+	border-bottom: 2px solid #444;
+	line-height: 2.5em;
+	margin: 0px;
+	font-weight: 500;
+}
+
+#news ul li {
+    width: 100%;
+}
+
+#news ul li:hover {
+	background: #FFF;
+}
+
+#news ul li h3 {
+	background: #eee;
+	border-bottom:1px solid #888;
+    padding-left: 10px;
+    font-size: medium;
+	margin:0px;
+	line-height:3em;
+}
+
+#news ul li p {
+	border-bottom:1px solid #888;
+	margin:0px;
+	padding:8px;
+}
+
+#menu {
+    width: 100%;
+}
+
+#menu h2 {
+	padding-left:10px;
+	background: #F9F9F9;
+	border-bottom: 2px solid #329A2A;
+	line-height:2.5em;
+	margin:0px;
+	font-weight: 500;
+}
+
+#menu ul li {
+    background: #F6FDF5;
+    width: 100%;
+    border-bottom: 1px solid #63965F;
+}
+
+#menu ul li:hover {
+	background: #DFF7DB;
+}
+
+#menu ul li a {
+	text-decoration:none;
+}
+
+#menu ul li a h3 {
+    padding-left: 10px;
+    font-size: medium;
+	margin:0px;
+	color: #000;
+	line-height:3em;
+}
+
+footer {
+
+    padding:10px 0 10px 0;
+    background: #040;
+    width: 100%;
+}
+
+footer p {
+    text-align: center;
+    color: #fff;
+}
